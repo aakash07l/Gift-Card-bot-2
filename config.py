@@ -17,7 +17,7 @@ load_dotenv(dotenv_path=ENV_PATH)
 # Telegram Bot Token (Dedicated 4K PlayStation Bot)
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
 if not BOT_TOKEN:
-    BOT_TOKEN = "9265133585:AAE_BdQ0XD9uXE_HvQEZD3MF9jsyyp3773s"
+    BOT_TOKEN = "9265133585:AAGL6hnOm03gv6XYTm_NUa-IZPGubZDZ7nI"
 
 # Authorized Admin / User Chat IDs for Multiple Telegram Users
 DEFAULT_ADMIN_CHAT_IDS = [5701727023, 1988639571, 828429985, 8801210593]
