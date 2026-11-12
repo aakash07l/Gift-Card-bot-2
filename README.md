@@ -1,14 +1,14 @@
-# 🎮 PlayStation 4K Gift Card Telegram Bot (Rooter Shop)
+# 🎮 PlayStation 1K Gift Card Telegram Bot (Rooter Shop)
 
-An automated Python Telegram bot built on top of the tested **October 16–17 PlayStation restock auto-buyer engine** (`python-telegram-bot` + `Playwright`).
-It monitors and buys **₹4,000 PlayStation Gift Cards / Wallet Vouchers** directly from **Rooter Shop** using your Rooter wallet balance, supporting **multiple Telegram users** and **multi-account parallel buying**.
+An automated Python Telegram bot built on top of the tested **PlayStation restock auto-buyer engine** (`python-telegram-bot` + `Playwright`).
+It monitors and buys **₹1,000 PlayStation Gift Cards / Wallet Vouchers** directly from **Rooter Shop** using your Rooter wallet balance, supporting **multiple Telegram users** and **multi-account parallel buying**.
 
 ---
 
 ## 🌟 Key Features
 
-1. **4K PlayStation Exclusive Targeting**:
-   - Strictly monitors and grabs **₹4,000 PlayStation Gift Cards** on Rooter Shop.
+1. **1K PlayStation Exclusive Targeting**:
+   - Strictly monitors and grabs **₹1,000 PlayStation Gift Cards** on Rooter Shop.
    - Auto-bypasses location prompts and regional dialogs.
    - Executes instant 1-click buy using Rooter Wallet balance the second stock restocks.
 
@@ -61,10 +61,10 @@ Play-Card-Bot/
 
 ## 🚀 Environment Variables
 
-- `BOT_TOKEN`: `8918128794:AAFYwsRDHm--pZwe9jm9pnBQe0PWUve4nck`
+- `BOT_TOKEN`: `80564566777`
 - `ADMIN_CHAT_IDS`: `5701727023,1988639571,828429985,8801210593`
-- `TARGET_DENOMINATION`: `4000`
+- `TARGET_DENOMINATION`: `1000`
 - `MAX_CARDS_PER_ACCOUNT`: `2`
 - `SIMULATION_MODE`: `False` (for real purchases)
-- `SNIPE_INTERVAL_SECONDS`: `29`
+- `SNIPE_INTERVAL_SECONDS`: `20`
 - `ROOTER_AUTH_TOKEN`: Your primary Rooter Bearer token
